@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var userName = "まりぃちゃん";
+            var Kawaii = "かわいい！";
+            function showUser() { 
+                target = document.getElementById("output");
+                target.innerHTML = userName; 
+            }
+            function showKawaii() { 
+                target = document.getElementById("kawaii_zone");
+                target.innerHTML = Kawaii;
+                Kawaii = Kawaii + "かわいい！" 
+            }
+        </script>
+    </head>
+
+
+    <body>
+        <script>
+        </script>
+        <div class="hoge"></div>
+        これは誰が作ったファイル？
+        <input type="button" value="見てみる" onClick="showUser();">
+        <input type="button" value="かわいい！" onClick="showKawaii();">
+        <h3>
+            <div id="output"></div>
+            <div id="kawaii_zone"></div>
+        </p3>
+    </body>
+</html>
